@@ -1,0 +1,20 @@
+# PPO-specific config overrides
+algorithm: ppo
+log_dir: runs/ppo
+total_timesteps: 1000000
+num_envs: 4
+
+ppo:
+  lr: 0.0003
+  lr_end: 0.0
+  n_steps: 2048
+  n_epochs: 10
+  batch_size: 512
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  ent_coef: 0.01
+  vf_coef: 0.5
+  max_grad_norm: 0.5
+  normalize_obs: true
+  hidden_dims: [256, 256]

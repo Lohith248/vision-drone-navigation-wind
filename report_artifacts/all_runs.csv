@@ -1,0 +1,11 @@
+algorithm,checkpoint,collision_rate,mean_length,mean_reward,oob_rate,params,run,seed,std_reward,success_rate,timeout_rate,total_timesteps
+ppo,runs/best_vit/ppo_seed0_t1p5m/checkpoints/checkpoint_1507328.pt,0.0,150.6,124.847,0.0,1002311,best_vit/ppo_seed0_t1p5m,0,0.274,1.0,0.0,1507328
+ddpg,runs/baseline_ddpg/ddpg_seed0/checkpoints/checkpoint_700000.pt,1.0,19.1,-53.396,0.0,141572,baseline_ddpg/ddpg_seed0,0,3.362,0.0,0.0,700000
+sac,runs/baseline_sac/sac_seed0/checkpoints/checkpoint_300000.pt,1.0,12.3,-42.164,0.0,213256,baseline_sac/sac_seed0,0,1.437,0.0,0.0,300000
+ppo,runs/multi_seed/ppo_seed1/checkpoints/checkpoint_802816.pt,0.0,279.6,124.329,0.0,1002311,multi_seed/ppo_seed1,1,0.23,1.0,0.0,802816
+ppo,runs/abl_no_advnorm/ppo_seed0/checkpoints/checkpoint_507904.pt,0.0,223.7,124.192,0.0,1002311,abl_no_advnorm/ppo_seed0,42,0.138,1.0,0.0,507904
+ppo,runs/abl_low_reward_scale/ppo_seed0/checkpoints/checkpoint_507904.pt,0.0,1023.1,28.899,0.0,1002311,abl_low_reward_scale/ppo_seed0,42,0.052,1.0,0.0,507904
+ppo,runs/abl_no_curriculum/ppo_seed0/checkpoints/checkpoint_507904.pt,0.0,226.8,124.449,0.0,1002311,abl_no_curriculum/ppo_seed0,42,0.277,1.0,0.0,507904
+ppo,runs/abl_state_only/ppo_seed0/checkpoints/checkpoint_606208.pt,0.133,314.4,105.242,0.0,70919,abl_state_only/ppo_seed0,42,49.055,0.867,0.0,606208
+ppo,runs/abl_cnn_encoder/ppo_seed0/checkpoints/checkpoint_606208.pt,1.0,126.2,19.768,0.0,1028295,abl_cnn_encoder/ppo_seed0,42,0.309,0.0,0.0,606208
+ppo,runs/abl_domain_random/ppo_seed0/checkpoints/checkpoint_704512.pt,0.0,205.1,124.574,0.0,1002311,abl_domain_random/ppo_seed0,0,0.276,1.0,0.0,704512

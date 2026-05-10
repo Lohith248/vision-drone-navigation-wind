@@ -1,0 +1,20 @@
+# SAC-specific config overrides
+algorithm: sac
+log_dir: runs/sac
+total_timesteps: 1000000
+num_envs: 1
+
+sac:
+  lr_actor: 0.0003
+  lr_critic: 0.0003
+  lr_alpha: 0.0003
+  gamma: 0.99
+  tau: 0.005
+  buffer_size: 100000
+  batch_size: 256
+  learning_starts: 1000
+  train_freq: 1
+  gradient_steps: 1
+  steps_per_iteration: 1000
+  normalize_obs: true
+  hidden_dims: [256, 256]
